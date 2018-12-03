@@ -57,6 +57,7 @@ public class Testy {
 	@After
 	public void CleanDriver(){
         driver.close();
+        driver.quit();
 	}
 	
 	
